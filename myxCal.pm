@@ -1,6 +1,6 @@
 package Bundle::myxCal;
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 1;
 
@@ -22,22 +22,30 @@ Bundle::myxCal - a CPAN bundle for the myxCal XML/CGI calendaring application
  CGI::Session::File [ 3.1.4.1 ]
  CGI::Session::ID::MD5 [ 3.2 ]
  CGI::Session::Serialize::Default [ 1.5 ]
+ Digest::MD5 [ 2.24 ]
+ Digest::SHA1 [ 2.02 ]
  Cache::Cache [ 1.02 ]
  Class::Factory::Util [ 1.4 ]
  DBD::mysql [ 2.1024 ]
  DBI [ 1.32 ]
  Date::Calc [ 5.3 ]
+ Test::More 
+ Module::Info
+ ExtUtils::ParseXS
+ Archive::Tar
+ YAML
+ Module::Build
  DateTime [ 0.10 ]
  DateTime::Format::Builder [ 0.62 ]
+ Class::Singleton
+ DateTime::TimeZone [ 0.12 ]
+ Params::Validate [ 0.58 ]
+ DateTime::LeapSecond [ 0.02 ]
  DateTime::Format::ICal [ 0.04 ]
  DateTime::Format::MySQL [ 0.03 ]
- DateTime::LeapSecond [ 0.02 ]
- DateTime::TimeZone [ 0.12 ]
  DateTime::TimeZone::Floating [ 0.01 ]
  DateTime::TimeZone::OffsetOnly [ 0.01 ]
  DateTime::TimeZone::UTC [ 0.01 ]
- Digest::MD5 [ 2.24 ]
- Digest::SHA1 [ 2.02 ]
  Error [ 0.15 ]
  HTML::CalendarMonthSimple [ 1.22 ]
  HTML::Entities [ 1.25 ]
@@ -49,7 +57,10 @@ Bundle::myxCal - a CPAN bundle for the myxCal XML/CGI calendaring application
  Log::Dispatch::Base [ 1.09 ]
  Log::Dispatch::File [ 1.22 ]
  Log::Dispatch::Output [ 1.26 ]
- Params::Validate [ 0.58 ]
+ XML::SAX
+ XML::LibXML::Common
+ XML::NamespaceSupport
+ XML::SAX::Expat
  XML::LibXML [ 1.53 ]
  XML::LibXML::Common [ 0.12 ]
  XML::LibXSLT [ 1.53 ]
