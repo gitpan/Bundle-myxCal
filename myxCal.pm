@@ -1,6 +1,6 @@
 package Bundle::myxCal;
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 1;
 
@@ -26,8 +26,8 @@ Bundle::myxCal - a CPAN bundle for the myxCal XML/CGI calendaring application
  Digest::SHA1 [ 2.02 ]
  Cache::Cache [ 1.02 ]
  Class::Factory::Util [ 1.4 ]
- DBD::mysql [ 2.1024 ]
- DBI [ 1.32 ]
+ DBD::mysql
+ DBI 
  Date::Calc [ 5.3 ]
  Test::More 
  Module::Info
@@ -58,7 +58,6 @@ Bundle::myxCal - a CPAN bundle for the myxCal XML/CGI calendaring application
  Log::Dispatch::File [ 1.22 ]
  Log::Dispatch::Output [ 1.26 ]
  XML::SAX
- XML::LibXML::Common
  XML::NamespaceSupport
  XML::SAX::Expat
  XML::LibXML [ 1.53 ]
